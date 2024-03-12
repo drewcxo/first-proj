@@ -10,6 +10,7 @@ padding-right: 200px;
 align-items: center;
 background-color: #1f2937;
 height: 30px;
+padding-top:10px;
 }
 ol {
 list-style: none;
@@ -60,14 +61,92 @@ border-color:#3882f6
 display: flex;
 flex-direction: column;
 }
-.images{
-  width: 100px;
-  width:100px
+h2 {
+text-align: center;
+padding: 28px;
 }
-.alien,
-.hippy,
-.ballon {
-width: 200px;
-height:180px;
+.photo {
+width: 140px;
+height:120px;
+display: flex;
+padding-left: 30px;
+border-radius: 6px;
+border-color: #3882f6;
 }
+
+.images{ 
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+max-height: 200px;
+padding-bottom: 100px;
+padding-top: 25px;
+
+} 
+.img-text {
+  max-width: 100px;
+}
+
+
+.quote{
+background-color: #E5E7EB;
+padding: 80px;
+padding-left: 250px;
+display: flex;
+flex-direction: column;
+padding-right: 250px;
+}
+.throw {
+font-size: 36px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #1F2937;
+}
+h3 {
+  text-align: right;
+  padding-top: 15px;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+.four {
+ margin: 150px; 
+ background-color: #3882f6;
+display: flex;
+border-radius: 6px;
+height: 100px;
+align-items: center;
+justify-content: space-between
+}
+h4 {
+font-weight: bolder;
+}
+.action {
+  padding-left: 120px;
+  color: #E5E7EB;
+}
+#buti {
+  padding-right: 220px;
+}
+.sup {
+  width: 87px;
+  height: 35px;
+  background-color: #3882f6;
+  border-radius: 6px;
+  border-color: #E5E7EB;
+  color: #E5E7EB;
+}
+footer {
+  background-color: #1F2937;
+}
+.last {
+ display: flex;
+height: 65px; 
+justify-content: center;
+align-items: center;
+color: #E5E7EB;
+}
+
+
 
